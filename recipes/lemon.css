@@ -19,3 +19,6 @@ p {
 ul {
   list-style-type: circle;
 }
+ul.links{
+  list-style-type: none;
+}
