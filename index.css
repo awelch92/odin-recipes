@@ -15,7 +15,8 @@
     
   }
 
-  ul.links{
+  .links, a{
     list-style-type: none;
+    text-decoration: none;
     
   }
