@@ -1,0 +1,21 @@
+*{
+  line-height: 1.5;
+} 
+img {
+  height: 475px;
+  Width: 700px;
+}
+h1, h2, h3 {
+  color: rgb(236, 199, 103);
+}
+body {
+  background-color: rgb(243, 237, 229);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 700px;
+}
+p {
+  text-align:left;
+}
+ul {
+  list-style-type: circle;
+}
