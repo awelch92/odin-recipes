@@ -6,7 +6,7 @@ img {
   Width: 700px;
 }
 h1, h2, h3 {
-  color: rgb(236, 199, 103);
+  color: rgb(127, 207, 221);
 }
 body {
   background-color: rgb(243, 237, 229);
@@ -21,6 +21,5 @@ ul {
 }
 .links, a {
   list-style-type: none;
-  text-align: left;
   text-decoration: none; 
 }
