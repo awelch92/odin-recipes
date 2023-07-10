@@ -22,7 +22,21 @@
   ul {
     list-style-type: circle;
   }
-  .links, a {
-    list-style-type: none;
-    text-decoration: none;
+  .main.button {
+    background-color: white;
+    
   }
+  .return.button {
+    background-color: rgb(185, 67, 87);
+    
+  }
+  a {
+    color: darkred;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .return.button a {
+    color: white;
+  }
+
+  

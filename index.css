@@ -1,9 +1,11 @@
 *{
     line-height: 1.5;
+    
   } 
   img {
     height: 475px;
     Width: 700px;
+    
   }
   h1 {
     color: rgb(153, 57, 32);
@@ -15,8 +17,21 @@
     
   }
 
-  .links, a{
-    list-style-type: none;
-    text-decoration: none;
-    
+  .cheesecake{
+  background-color: rgb(150, 41, 41);
   }
+
+  .pumpkin {
+  background-color: rgb(212, 127, 23);
+  }
+  .lemon { 
+  background-color: rgb(241, 197, 83);
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+  }
+    
+  

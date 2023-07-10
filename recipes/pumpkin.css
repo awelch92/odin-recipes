@@ -20,7 +20,19 @@
   ul {
     list-style-type: circle;
   }
-  .links, a {
-    list-style-type: none;
-    text-decoration: none;
+  .return.button {
+    background-color: brown;
+    
   }
+  .main.button {
+    background-color: white;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(236, 159, 15);
+    font-size: 16px;
+  }
+  .return.button a {
+    color: white;
+  }
+  

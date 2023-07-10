@@ -19,7 +19,20 @@ p {
 ul {
   list-style-type: circle;
 }
-.links, a {
-  list-style-type: none;
-  text-decoration: none; 
+.return.button {
+  background-color: rgb(127, 207, 221);
 }
+
+.main.button {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.main.button a {
+color: darkgoldenrod;
+}
+
