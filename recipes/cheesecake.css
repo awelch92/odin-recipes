@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
   }
+
   body {
     margin: auto;
     padding: 20px;
@@ -12,43 +13,47 @@
     width: 700px;
     border: 3px darkred;
   }
+
   h1 {
     text-align: center;
   }
+
   p {
     text-align:left;
   }
   
   img {
     Width: 700px;
-   
   }
 
-  h1, h2, h3 {
+  h1, h2 {
     color: darkred;
   }
-  h4 {
-    color: rgb(204, 114, 129);
+
+  h3 {
+    color:rgb(204, 114, 129);
   }
 
   ul {
     list-style-type: circle;
   }
+
   .main.button {
     background-color: white;
     margin: 10px;
    
-    
   }
   .return.button {
     background-color: rgb(185, 67, 87);
     
   }
+
   a {
     color: darkred;
     text-decoration: none;
     font-size: 16px;
   }
+  
   .return.button a {
     color: white;
   }
