@@ -1,41 +1,54 @@
-*{
+ *{
     line-height: 1.5;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
   }
-  
-  img {
-    height: 475px;
-    Width: 700px;
-  }
-  h1, h2, h3{
-    color:brown;
-  }
 
   body {
+    margin: auto;
+    padding: 20px;
     background-color: rgb(236, 207, 168);
     font-family: Arial, Helvetica, sans-serif;
     width: 700px;
+    border: 3px brown;
   }
+
+  h1 {
+    text-align: center;
+  }
+
   p {
-    text-align:left;
+    text-align: left;
   }
+  
+  img {
+    Width: 700px;
+  }
+
+  h1, h2 {
+    color:brown;
+  }
+
   ul {
     list-style-type: circle;
   }
+
+  .main.button {
+    background-color: white;
+  }
+
   .return.button {
     background-color: brown;
     
   }
-  .main.button {
-    background-color: white;
-  }
+
   a {
     text-decoration: none;
-    color: rgb(236, 159, 15);
+    color: brown;
     font-size: 16px;
   }
+
   .return.button a {
     color: white;
   }
