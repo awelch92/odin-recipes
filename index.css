@@ -1,28 +1,30 @@
-  *{
+ *{
     line-height: 1.5;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
   } 
+
+  .header-container {
+    width: auto;
+    text-align: center;
+  }
+
   body {
     background-color: rgb(236, 231, 225);
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    
-  }
+  }  
+
   img {
     height: 475px;
     Width: 700px;
+    border-radius: 10px;
   
   }
+
   h1 {
     color: rgb(153, 57, 32);
     font-size: 60px;
-  }
-  .homepage {
-    margin: 10px 500px;
-    width: auto;
-    text-align: center;
   }
 
   a {
@@ -30,20 +32,31 @@
     color: white;
     font-size: 22px;  
   }
+
   .link {
     padding: 60px;
   }
-  .cheesecake {
-  background-color: rgb(238, 153, 153);
- 
+
+  button.cheesecake {
+   background-color: rgb(238, 153, 153);
+   padding: 40px;
+   margin: 20px;
+   border-radius: 10px;
+
   }
-  .pumpkin {
-  background-color: rgb(212, 127, 23);
-  margin: 10px;
+
+  button.pumpkin {
+   background-color: rgb(212, 127, 23);
+   padding: 40px;
+   margin: 20px;
+   border-radius: 10px;
   }
   
-  .lemon { 
-  background-color: rgb(241, 197, 83);
+  button.lemon { 
+   background-color: rgb(241, 197, 83);
+   padding: 40px;
+   margin: 20px;
+   border-radius: 10px;
   
   }
 
@@ -51,5 +64,4 @@
     margin: 50px;
     text-align: center;
   }
-    
   

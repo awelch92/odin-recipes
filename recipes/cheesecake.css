@@ -10,8 +10,16 @@
     padding: 20px;
     background-color: #f3dddd;
     font-family: Arial, Helvetica, sans-serif;
-    width: 700px;
+    width: 800px;
     border: 3px darkred;
+  }
+
+  .recipe-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 10px 6px rgba(0,0,0,0.1);
+    margin: auto;
   }
 
   h1 {
@@ -23,7 +31,9 @@
   }
   
   img {
-    Width: 700px;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
   }
 
   h1, h2 {
@@ -31,21 +41,22 @@
   }
 
   h3 {
-    color:rgb(204, 114, 129);
+    color: darkred;
   }
 
   ul {
     list-style-type: circle;
+    list-style-position: inside;
   }
 
   .main.button {
     background-color: white;
-    margin: 10px;
-   
+    margin-top: 10px;
   }
+  
   .return.button {
-    background-color: rgb(185, 67, 87);
-    
+    margin-top: 10px;
+    background-color: rgb(185, 67, 87);  
   }
 
   a {
@@ -57,5 +68,4 @@
   .return.button a {
     color: white;
   }
-
   
