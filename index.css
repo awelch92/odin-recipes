@@ -33,8 +33,9 @@
     font-size: 22px;  
   }
 
-  .link {
-    padding: 60px;
+  .links {
+    margin: auto;
+    text-align: center;
   }
 
   button.cheesecake {
@@ -64,7 +65,7 @@
   }
 
   .links {
-    margin: 50px;
+    margin: auto;
     text-align: center;
   }
   
