@@ -1,4 +1,4 @@
- *{
+*{
     line-height: 1.5;
     margin: 0px;
     padding: 0px;
@@ -32,40 +32,38 @@
     color: white;
     font-size: 22px;  
   }
-
+  
   .links {
-    margin: auto;
-    text-align: center;
-  }
-
-  button.cheesecake {
-   background-color: rgb(238, 153, 153);
-   padding: 40px;
-   margin: 20px;
-   border: none;
-   border-radius: 10px;
-
-  }
-
-  button.pumpkin {
-   background-color: rgb(212, 127, 23);
-   padding: 40px;
-   margin: 20px;
-   border: none;
-   border-radius: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr; /* Forces all columns to take up equal fraction of space */
+    gap: 12px;    
   }
   
-  button.lemon { 
-   background-color: rgb(241, 197, 83);
-   padding: 40px;
-   margin: 20px;
-   border: none;
-   border-radius: 10px;
+  button {
+    padding: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cheesecake {
+    background-color: rgb(238, 153, 153);
+  }
+
+  .pumpkin {
+    background-color: rgb(212, 127, 23);
+
+  }
+  
+  .lemon { 
+    background-color: rgb(241, 197, 83);
   
   }
 
-  .links {
-    margin: auto;
-    text-align: center;
-  }
   
