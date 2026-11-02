@@ -23,7 +23,12 @@
   }
 
   h1 {
+    color: brown;
     text-align: center;
+  }
+
+  h2 {
+    color:brown;
   }
 
   p {
@@ -36,23 +41,25 @@
     border-radius: 10px;
   }
 
-  h1, h2 {
-    color:brown;
-  }
-
   ul {
     list-style-type: circle;
   }
 
-  .main.button {
+  a {
+    text-decoration: none;
+    color: brown;
+    padding: 10px 5px;
+    font-size: 16px;
+  }
+
+  .main {
     margin-top: 10px;
     background-color: white;
   }
 
-  .return.button {
+  .return {
     margin-top: 10px;
-    background-color: brown;
-    
+    background-color: brown; 
   }
 
   a {
@@ -61,7 +68,7 @@
     font-size: 16px;
   }
 
-  .return.button a {
+  .return a {
     color: white;
   }
   
