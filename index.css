@@ -33,25 +33,27 @@
     font-size: 22px;
   }
   
-  .links {
+  .recipe-links {
     display: flex;
     gap: 20px;
     max-width: 1000px;
     margin: 40px auto 0;
   }
   
-  button {
+  .button {
     flex: 1;
     text-align: center;
     padding: 15px 10px;
     border-radius: 10px;
     border: none;
     background-color: rgb(153, 57, 32);
+    transition: transform 0.2s ease;
   }
   
-  button:hover {
+  .button:hover {
     transform: scale(1.05); /* Slightly enlarges the button */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
+  
   
   
