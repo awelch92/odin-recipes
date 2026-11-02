@@ -23,8 +23,18 @@
   }
 
   h1 {
+    color: darkblue;
     text-align: center;
   }
+  
+  h2 {
+    color: darkblue;
+  }
+  
+  h3 {
+    color:rgb(127, 207, 221);
+  }
+
 
   p {
     text-align: left;
@@ -36,10 +46,6 @@
     border-radius: 10px;
   }
 
-  h1, h2 {
-    color: darkblue;
-  }
-
   h3 {
     color:rgb(127, 207, 221);
   }
@@ -47,23 +53,24 @@
   ul {
     list-style-type: circle;
   }
+  
+  a {
+    color: rgb(36, 99, 172);
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: 16px;
+  }
 
-  .main.button {
+  .main {
     background-color: white;
     margin-top: 10px;
   }
 
-  .return.button {
+  .return {
     background-color: rgb(36, 99, 172);
     margin-top: 10px;
   }
 
-  a {
-    color: rgb(36, 99, 172);
-    text-decoration: none;
-    font-size: 16px;
-  }
-
-  .return.button a {
+  .return a {
       color: rgb(247, 247, 247);
   }
