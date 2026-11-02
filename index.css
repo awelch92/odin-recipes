@@ -30,21 +30,23 @@
   a {
     text-decoration: none;
     color: white;
-    font-size: 22px;  
+    font-size: 22px;
   }
   
   .links {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr; /* Forces all columns to take up equal fraction of space */
-    gap: 12px;    
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto 0;
   }
   
   button {
-    padding: 40px;
-    margin: 10px;
-    border: none;
+    flex: 1;
+    text-align: center;
+    padding: 15px 10px;
     border-radius: 10px;
+    border: none;
+    background-color: rgb(153, 57, 32);
   }
   
   button:hover {
@@ -52,18 +54,4 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
   
-  .cheesecake {
-    background-color: rgb(238, 153, 153);
-  }
-
-  .pumpkin {
-    background-color: rgb(212, 127, 23);
-
-  }
-  
-  .lemon { 
-    background-color: rgb(241, 197, 83);
-  
-  }
-
   
