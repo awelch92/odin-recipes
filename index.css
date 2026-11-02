@@ -41,6 +41,7 @@
    background-color: rgb(238, 153, 153);
    padding: 40px;
    margin: 20px;
+   border: none;
    border-radius: 10px;
 
   }
@@ -49,6 +50,7 @@
    background-color: rgb(212, 127, 23);
    padding: 40px;
    margin: 20px;
+   border: none;
    border-radius: 10px;
   }
   
@@ -56,6 +58,7 @@
    background-color: rgb(241, 197, 83);
    padding: 40px;
    margin: 20px;
+   border: none;
    border-radius: 10px;
   
   }
